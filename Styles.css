@@ -1,0 +1,43 @@
+
+#imageLogo {
+
+    height: 3rem;
+}
+
+.carousel-item {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height: auto;
+}
+  
+.card-columns .card {
+
+    display: inline-block;
+}
+  
+.card-img-top {
+
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+
+.contenedorProductos:hover {
+
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.intefaceImageProduct {
+
+    width: 26rem;
+}
+
+.carritoImgItem {
+
+    width: 12rem;
+}
