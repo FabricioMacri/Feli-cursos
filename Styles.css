@@ -41,3 +41,12 @@
 
     width: 12rem;
 }
+.scrollspy-example {
+    position: relative;
+    height: 300px;
+    overflow: auto;
+}
+
+body {
+    position: relative;
+  }
