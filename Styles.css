@@ -46,6 +46,60 @@
     height: 300px;
     overflow: auto;
 }
+#wppIcon {
+    margin-bottom: 10px; 
+    width: 5rem;
+    margin-right: 20px;
+}
+#anuncioContainer {
+
+    margin-top: 40px;
+    background-color: #F5EFED;
+    padding: 5px;
+    border-radius: 20px;
+}
+@font-face {
+
+    font-family: 'good times';
+  src: url('./fonts/good times rg.otf');
+
+}
+.Titulos {
+
+    margin: 40px;
+    font-family: 'good times';
+    color: #F5EFED;
+}
+#anuncio {
+
+    color: #6564DB;
+
+}
+#nostrosTitulo {
+
+    color: #0F0A0A;
+    font-weight: bold;
+    font-style: normal;
+}
+.comunidadListGroup {
+
+    color: #0F0A0A;
+}
+.comunidadListGroup:hover {
+
+    background-color: #BDBF09;
+}
+.comunidadListGroup.active {
+    
+    background-color: #BDBF09;
+    border-color: #BDBF09;
+    
+}
+
+.headerTittle {
+
+    color: #BDBF09;;
+}
 
 body {
     position: relative;
