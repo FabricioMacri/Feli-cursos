@@ -1,4 +1,4 @@
-(async () => {
+/*(async () => {
     const { value: email } = await Swal.fire({
       title: "Ingrese su email para obtener beneficios",
       input: "email",
@@ -8,4 +8,4 @@
     if (email) {
       Swal.fire(`Entered email: ${email}`);
     }
-  })()
+  })()*/
