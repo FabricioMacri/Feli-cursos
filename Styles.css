@@ -25,6 +25,12 @@
     border-top-right-radius: calc(0.25rem - 1px);
 }
 
+.contenedorProductos {
+
+    background-color: #BDBF09;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 .contenedorProductos:hover {
 

@@ -8,4 +8,8 @@
     if (email) {
       Swal.fire(`Entered email: ${email}`);
     }
-  })()*/
+  })()
+*/
+
+
+
