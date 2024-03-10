@@ -48,6 +48,7 @@ menuDesc.addEventListener("click", () => {
     const menuContainer = changeWindow();
 
     const text = document.createElement("p");
+    text.classList.add('text-white')
 
     text.textContent = "Descubre el potencial oculto dentro de ti y aprende a convertir tus habilidades en una fuente de éxito empresarial. En nuestra plataforma de cursos online vanguardista y moderna, nos enfocamos en potenciar tus capacidades para que no solo vendas, ¡sino que también emprendas con confianza! Desde estrategias innovadoras de ventas hasta técnicas emprendedoras probadas, este curso te brindará las herramientas esenciales para destacarte en el mundo de los negocios actual. Prepárate para transformar tu talento en emprendimiento de la mano de expertos y métodos actualizados. ¡Tu viaje hacia el éxito comienza aquí!"
     
@@ -60,35 +61,43 @@ menuObj.addEventListener("click", () => {
     
     const menuContainer = changeWindow();
 
+    const col = document.createElement("div");
+    col.classList.add('col');
     const br = document.createElement("br");
     const br2 = document.createElement("br");
     const br3 = document.createElement("br");
     const br4 = document.createElement("br");
 
     const item1 = document.createElement("h4");
+    item1.classList.add('text-white');
     item1.textContent = "1.Módulos de Autodescubrimiento";
 
     const item2 = document.createElement("h4");
+    item2.classList.add('text-white');
     item2.textContent = "2.Estrategias de Ventas Innovadoras";
 
     const item3 = document.createElement("h4");
+    item3.classList.add('text-white');
     item3.textContent = "3.Desarrollo de Marca Personal";
 
     const item4 = document.createElement("h4");
+    item4.classList.add('text-white');
     item4.textContent = "4.Técnicas de Marketing Digital de Última Generación";
 
     const item5 = document.createElement("h4");
+    item5.classList.add('text-white');
     item5.textContent = "5.Sesiones de Mentoría en Vivo";
     
-    menuContainer.appendChild(item1);
-    menuContainer.appendChild(br);
-    menuContainer.appendChild(item2);
-    menuContainer.appendChild(br2);
-    menuContainer.appendChild(item3);
-    menuContainer.appendChild(br3);
-    menuContainer.appendChild(item4);
-    menuContainer.appendChild(br4);
-    menuContainer.appendChild(item5);
+    menuContainer.appendChild(col);
+    col.appendChild(item1);
+    col.appendChild(br);
+    col.appendChild(item2);
+    col.appendChild(br2);
+    col.appendChild(item3);
+    col.appendChild(br3);
+    col.appendChild(item4);
+    col.appendChild(br4);
+    col.appendChild(item5);
 
 });
 

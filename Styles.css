@@ -27,7 +27,7 @@
 
 .contenedorProductos {
 
-    background-color: #BDBF09;
+    background-color: #6564DB;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -75,6 +75,17 @@
     margin: 40px;
     font-family: 'good times';
     color: #F5EFED;
+}
+.titulares {
+    border-bottom: 1px solid #ffffff; /* Color inicial del borde */
+    padding: 10px; /* Agregar relleno opcional */
+    transition: border-color 0.3s ease; /* Agregar transición para un cambio suave */
+  }
+.titulares:hover {
+
+    color: #6564DB;
+    border-color: #6564DB;
+
 }
 #anuncio {
 
